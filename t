@@ -31,7 +31,29 @@ if (strpos(json_encode($login), '"status":true')) {
     echo @color('nevy', "$poin Poin\n\n");
     cek:
     echo @color('green', "Pilih Paket:\n");
-    echo @color('yellow', "1. Welcome Reward 5GB ==> Rp 1\n2. (NEW) 10GB 30 Hari ==> Rp 15000\n3. (NEW) 15GB 30 Hari ==> Rp 20000\n41. 15GB 25rb (Diskon) ==> Rp 25000\n4. 25GB 25rb (Diskon) ==> Rp 25000\n5. 25GB 24 Jam 20 Hari ==> Rp 25000\n6. (NEW) 25GB 20 Hari ==> Rp 25000\n7. (NEW) 25GB 20 Hari ==> Rp 25000\n8. 25GB 24 Jam 30 Hari ==> Rp 29000\n9. (NEW) 25GB 30 Hari ==> Rp 29000\n10. (NEW) 55GB 30 Hari ==> Rp 50000\n11. (NEW) 65GB 30 Hari ==> Rp 60000\n12. (NEW) 75GB 30 Hari ==> Rp 75000\n13. (NEW) 90GB 30 Hari ==> Rp 90000\n14. (NEW) 100GB 30 Hari ==> Rp 90000\n");
+    echo @color('yellow', "1. Welcome Reward 5GB ==> Rp 1 \
+                       n2. 2GB 1 Hari ==> Rp 4000 \
+                       n3. 4GB 3 Hari ==> Rp 5000 \
+                       n4. 24876 - 4GB 3 Hari ==> Rp 10000 \
+                       n5. 5GB 30 Hari ==> Rp 15000 \
+                       n6. 8GB 5 Hari ==> Rp 13000 \
+                       n7. 10GB 30 Hari ==> Rp 15000 \
+                       n8. 15GB 30 Hari ==> Rp 20000 \
+                       n9. 25GB 30 Hari ==> Rp 25000 \
+                       n10. 25GB 20 Hari ==> Rp 25000 \
+                       n11. 25GB 20 Hari ==> Rp 25000 \
+                       n12. 25GB 20 Hari ==> Rp 25000 \
+                       n13. 25GB 30 Hari ==> Rp 29000 \
+                       n14. 25GB 30 Hari ==> Rp 29000 \
+                       n15. 25GB 30 Hari ==> Rp 30000 \
+                       n16. 25GB 30 Hari ==> Rp 50000 \
+                       n17. 45GB 30 Hari ==> Rp 50000 \
+                       n18. 55GB 30 Hari ==> Rp 50000 \
+                       n19. 65GB 30 Hari ==> Rp 60000 \
+                       n20. 65GB 30 Hari ==> Rp 100000 \
+                       n21. 75GB 30 Hari ==> Rp 75000 \
+                       n22. 90GB 30 Hari ==> Rp 90000 \
+                       n23. 100GB 30 Hari ==> Rp 90000 \n");
     echo @color('green', "\nMasukkan Pilihan (Sesuai Angka) : ");
     $pilih = trim(fgets(STDIN));
     switch ($pilih) {
@@ -39,45 +61,69 @@ if (strpos(json_encode($login), '"status":true')) {
             $prodid = '25669';
             break;
             case '2':
-            $prodid = '25245';
+            $prodid = '25507';
             break;
             case '3':
-            $prodid = '25459';
-            break;
-            case '41':
-            $prodid = '25459';
+            $prodid = '25719';
             break;
             case '4':
-            $prodid = '22648';
+            $prodid = '24876';
             break;
             case '5':
-            $prodid = '23160';
+            $prodid = '24883';
             break;
             case '6':
-            $prodid = '25254';
+            $prodid = '24878';
             break;
             case '7':
-            $prodid = '25264';
+            $prodid = '25245';
             break;
             case '8':
-            $prodid = '23164';
+            $prodid = '25459';
             break;
             case '9':
-            $prodid = '25267';
+            $prodid = '22648';
             break;
             case '10':
-            $prodid = '25469';
+            $prodid = '23160';
             break;
             case '11':
-            $prodid = '25690';
+            $prodid = '25254';
             break;
             case '12':
-            $prodid = '25247';
+            $prodid = '25264';
             break;
             case '13':
-            $prodid = '25476';
+            $prodid = '23164';
             break;
             case '14':
+            $prodid = '25267';
+            break;
+            case '15':
+            $prodid = '25465';
+            break;
+	    case '16':
+            $prodid = '25527';
+            break;
+	    case '17':
+            $prodid = '25686';
+            break;
+	    case '18':
+            $prodid = '25469';
+            break;
+	    case '19':
+            $prodid = '25690';
+            break;
+	    case '20':
+            $prodid = '24886';
+            break;
+	    case '21':
+            $prodid = '25247';
+            break;
+	    case '22':
+            $prodid = '25476';
+            break;
+	    case '23':
             $prodid = '25693';
             break;
         
