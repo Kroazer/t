@@ -31,29 +31,29 @@ if (strpos(json_encode($login), '"status":true')) {
     echo @color('nevy', "$poin Poin\n\n");
     cek:
     echo @color('green', "Pilih Paket:\n");
-    echo @color('yellow', "1. Welcome Reward 5GB ==> Rp 1 \
-                       n2. 2GB 1 Hari ==> Rp 4000 \
-                       n3. 4GB 3 Hari ==> Rp 5000 \
-                       n4. 24876 - 4GB 3 Hari ==> Rp 10000 \
-                       n5. 5GB 30 Hari ==> Rp 15000 \
-                       n6. 8GB 5 Hari ==> Rp 13000 \
-                       n7. 10GB 30 Hari ==> Rp 15000 \
-                       n8. 15GB 30 Hari ==> Rp 20000 \
-                       n9. 25GB 30 Hari ==> Rp 25000 \
-                       n10. 25GB 20 Hari ==> Rp 25000 \
-                       n11. 25GB 20 Hari ==> Rp 25000 \
-                       n12. 25GB 20 Hari ==> Rp 25000 \
-                       n13. 25GB 30 Hari ==> Rp 29000 \
-                       n14. 25GB 30 Hari ==> Rp 29000 \
-                       n15. 25GB 30 Hari ==> Rp 30000 \
-                       n16. 25GB 30 Hari ==> Rp 50000 \
-                       n17. 45GB 30 Hari ==> Rp 50000 \
-                       n18. 55GB 30 Hari ==> Rp 50000 \
-                       n19. 65GB 30 Hari ==> Rp 60000 \
-                       n20. 65GB 30 Hari ==> Rp 100000 \
-                       n21. 75GB 30 Hari ==> Rp 75000 \
-                       n22. 90GB 30 Hari ==> Rp 90000 \
-                       n23. 100GB 30 Hari ==> Rp 90000 \n");
+    echo @color('yellow', "1. Welcome Reward 5GB ==> Rp 1 
+                       \n2. 2GB 1 Hari ==> Rp 4000 
+                       \n3. 4GB 3 Hari ==> Rp 5000 
+                       \n4. 24876 - 4GB 3 Hari ==> Rp 10000 
+                       \n5. 5GB 30 Hari ==> Rp 15000 
+                       \n6. 8GB 5 Hari ==> Rp 13000 
+                       \n7. 10GB 30 Hari ==> Rp 15000 
+                       \n8. 15GB 30 Hari ==> Rp 20000 
+                       \n9. 25GB 30 Hari ==> Rp 25000 
+                       \n10. 25GB 20 Hari ==> Rp 25000 
+                       \n11. 25GB 20 Hari ==> Rp 25000 
+                       \n12. 25GB 20 Hari ==> Rp 25000 
+                       \n13. 25GB 30 Hari ==> Rp 29000 
+                       \n14. 25GB 30 Hari ==> Rp 29000 
+                       \n15. 25GB 30 Hari ==> Rp 30000 
+                       \n16. 25GB 30 Hari ==> Rp 50000 
+                       \n17. 45GB 30 Hari ==> Rp 50000 
+                       \n18. 55GB 30 Hari ==> Rp 50000 
+                       \n19. 65GB 30 Hari ==> Rp 60000 
+                       \n20. 65GB 30 Hari ==> Rp 100000 
+                       \n21. 75GB 30 Hari ==> Rp 75000 
+                       \n22. 90GB 30 Hari ==> Rp 90000 
+                       \n23. 100GB 30 Hari ==> Rp 90000\n");
     echo @color('green', "\nMasukkan Pilihan (Sesuai Angka) : ");
     $pilih = trim(fgets(STDIN));
     switch ($pilih) {
