@@ -34,7 +34,7 @@ if (strpos(json_encode($login), '"status":true')) {
     echo @color('yellow', "1. Welcome Reward 5GB ==> Rp 1 
                        \n2. 2GB 1 Hari ==> Rp 4000 
                        \n3. 4GB 3 Hari ==> Rp 5000 
-                       \n4. 24876 - 4GB 3 Hari ==> Rp 10000 
+                       \n4. 4GB 3 Hari ==> Rp 10000 
                        \n5. 5GB 30 Hari ==> Rp 15000 
                        \n6. 8GB 5 Hari ==> Rp 13000 
                        \n7. 10GB 30 Hari ==> Rp 15000 
