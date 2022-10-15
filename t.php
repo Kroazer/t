@@ -54,7 +54,8 @@ if (strpos(json_encode($login), '"status":true')) {
                        \n20. 65GB 30 Hari ==> Rp 100000 
                        \n21. 75GB 30 Hari ==> Rp 75000 
                        \n22. 90GB 30 Hari ==> Rp 90000 
-                       \n23. 100GB 30 Hari ==> Rp 90000\n");
+                       \n23. 100GB 30 Hari ==> Rp 90000
+                       \n24. 15GB 14 Hari ==> Rp 15000\n");
     echo @color('green', "\nMasukkan Pilihan (Sesuai Angka) : ");
     $pilih = trim(fgets(STDIN));
     switch ($pilih) {
@@ -126,6 +127,9 @@ if (strpos(json_encode($login), '"status":true')) {
             break;
 	    case '23':
             $prodid = '25693';
+            break;
+            case '24':
+            $prodid = '25676';
             break;
         
         default:
