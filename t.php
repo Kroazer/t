@@ -3,8 +3,8 @@
 Provider Tri
 */
 echo @color("white","───────────────────────────────────────────────\n");
-echo @color("res","                 Kroazer Jedorrrrrrrrrrrr                \n");
-echo @color("blue","                 Remake From TOOLS DOR TRI                 \n");
+echo @color("res","                    Jedorrrrrrrrrrrr                \n");
+echo @color("blue","                 Remake From SC Public                 \n");
 echo @color("white","───────────────────────────────────────────────\n");
 echo @color('purple', "Masukkan Nomor Tri \t\t: ");
 $nomor = trim(fgets(STDIN));
